@@ -14,7 +14,8 @@
   "present_address",
   "phone_no",
   "id_proof",
-  "submit"
+  "submit",
+  "amended_from"
  ],
  "fields": [
   {
@@ -67,11 +68,21 @@
    "fieldname": "submit",
    "fieldtype": "Button",
    "label": "Submit"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "frappe_demo",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-27 10:11:03.649657",
+ "modified": "2024-09-27 10:28:55.546435",
  "modified_by": "Administrator",
  "module": "custom_app",
  "name": "frappe_demo",
