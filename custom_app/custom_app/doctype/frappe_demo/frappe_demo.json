@@ -7,7 +7,14 @@
  "field_order": [
   "name1",
   "dob",
-  "id_proof"
+  "email",
+  "permanent_address",
+  "column_break_iakn",
+  "same_as_permanent_address",
+  "present_address",
+  "phone_no",
+  "id_proof",
+  "submit"
  ],
  "fields": [
   {
@@ -24,11 +31,47 @@
    "fieldname": "id_proof",
    "fieldtype": "Attach",
    "label": "ID proof"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "permanent_address",
+   "fieldtype": "Data",
+   "label": "Permanent Address"
+  },
+  {
+   "fieldname": "column_break_iakn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "same_as_permanent_address",
+   "fieldtype": "Check",
+   "label": "Same as Permanent Address"
+  },
+  {
+   "fieldname": "present_address",
+   "fieldtype": "Data",
+   "label": "Present Address"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Phone",
+   "label": "Phone No."
+  },
+  {
+   "bold": 1,
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "Submit"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-24 12:58:53.992501",
+ "modified": "2024-09-27 10:11:03.649657",
  "modified_by": "Administrator",
  "module": "custom_app",
  "name": "frappe_demo",
